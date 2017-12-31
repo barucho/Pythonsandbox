@@ -1,11 +1,10 @@
 [mysqld]
-
 # server configuration
 datadir=/u01/data/mysql_group1/1
-port=24801
+port=$port
 socket=/u01/data/mysql_group1/1/s1.sock
 ## REPLICATION
-server_id=1
+server_id=$server_id
 gtid_mode=ON
 enforce_gtid_consistency=ON
 master_info_repository=TABLE
