@@ -1,0 +1,6 @@
+{
+    "config":{
+"datadir":"/u01/data/mysql/",
+"number_of_nodes":3
+    }
+}
